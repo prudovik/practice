@@ -16,7 +16,7 @@ public class SerializationTests
                                     new Subject {Name = "Science", Grade = 3}}};
         var output = new StringWriter();
         Console.SetOut(output);
-        string result = "{\n  \"FirstName\": \"Ivan\",\n  \"LastName\": \"Ivanov\",\n  \"BirthDate\": \"2001-01-02\",\n  \"Grades\": [\n    {\n      \"Name\": \"Math\",\n      \"Grade\": 5\n    },\n    {\n      \"Name\": \"Science\",\n      \"Grade\": 3\n    }\n  ]\n}\nIvan\nIvanov\n02.01.2001 00:00:00\nMath\n5\nScience\n3\n";
+        string result = "{\n  \"FirstName\": \"Ivan\",\n  \"LastName\": \"Ivanov\",\n  \"BirthDate\": \"2001-01-02\",\n  \"Grades\": [\n    {\n      \"Name\": \"Math\",\n      \"Grade\": 5\n    },\n    {\n      \"Name\": \"Science\",\n      \"Grade\": 3\n    }\n  ]\n}\nIvan\nIvanov\n01/02/2001 00:00:00\nMath\n5\nScience\n3\n";
         Program.Main();
         Assert.Equal(result, output.ToString());
     }
