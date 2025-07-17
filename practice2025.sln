@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task13", "task13\task13.csproj", "{B32D3D44-8C34-476E-8AD4-2D53406D76DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task13tests", "task13tests\task13tests.csproj", "{EEFA6BCC-2484-4C82-92C4-0CA6F7A183F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationConsole", "SerializationConsole\SerializationConsole.csproj", "{42C1E410-09DA-4CA1-BFAD-41C6541F6C42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B32D3D44-8C34-476E-8AD4-2D53406D76DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32D3D44-8C34-476E-8AD4-2D53406D76DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32D3D44-8C34-476E-8AD4-2D53406D76DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32D3D44-8C34-476E-8AD4-2D53406D76DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFA6BCC-2484-4C82-92C4-0CA6F7A183F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFA6BCC-2484-4C82-92C4-0CA6F7A183F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFA6BCC-2484-4C82-92C4-0CA6F7A183F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFA6BCC-2484-4C82-92C4-0CA6F7A183F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C1E410-09DA-4CA1-BFAD-41C6541F6C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C1E410-09DA-4CA1-BFAD-41C6541F6C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C1E410-09DA-4CA1-BFAD-41C6541F6C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C1E410-09DA-4CA1-BFAD-41C6541F6C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
